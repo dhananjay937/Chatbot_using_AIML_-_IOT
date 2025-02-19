@@ -3,6 +3,15 @@
 ### 📌 Overview
 This project integrates an AI-powered chatbot with an **Arduino** and an **LCD display**. The chatbot listens to user input, processes the response using OpenAI's GPT model, and speaks it aloud while displaying the full response on an LCD screen.
 
+---
+## **Features**
+
+- 🗣️ **Voice Recognition (Speech-to-Text)**
+- 🔊 **Text-to-Speech (TTS) using pyttsx3**
+- 📟 **LCD Display for Chatbot Responses**
+- 💡 **LED Indicators for Listening & Responding**
+- 🔌 **Serial Communication between Python & Arduino**
+---
 ## 🔹 **Hardware Requirements**
 - 🎥 **Arduino Uno**  
 - 🎢 **16x2 I2C LCD Display** (I2C Address: 0x27 or 0x3F)  
